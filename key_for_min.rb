@@ -23,7 +23,7 @@ i=1
 curr_value = empty_value[0]
 while i < empty_value.length
    if empty_value[i] < curr_value
-     empty_value[i] = curr_value
+     curr_value = empty_value[i]
    end
    i+=1
  end
