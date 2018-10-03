@@ -3,7 +3,4 @@
 
 def key_for_min_value(name_hash)
 
-curr_value = name_hash.first.value
-puts curr_value
-
 end
