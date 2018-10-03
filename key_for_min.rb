@@ -18,7 +18,6 @@ empty_value = []
 name_hash.each_value do |value|
   empty_value << value
 end
-puts empty_value
 
 i=1
 curr_value = empty_value[0]
@@ -28,4 +27,5 @@ while i < empty_value.length
    end
    i+=1
  end
+ puts curr_value
 end
