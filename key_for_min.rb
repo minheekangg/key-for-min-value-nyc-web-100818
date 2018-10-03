@@ -8,6 +8,7 @@ name_hash.each do |key, num|
   if num < curr_num
       curr_num = num
       curr_key = key
+    end
   end
     return key
 end
