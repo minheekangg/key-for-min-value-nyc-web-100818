@@ -27,5 +27,5 @@ while i < empty_value.length
    end
    i+=1
  end
- puts curr_valu
+ puts curr_value
 end
