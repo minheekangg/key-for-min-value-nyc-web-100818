@@ -14,5 +14,4 @@ puts curr_value
     end
   end
 
-  puts curr_key
 end
