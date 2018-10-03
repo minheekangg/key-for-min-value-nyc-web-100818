@@ -17,11 +17,10 @@ puts curr_value
 empty_value = []
 name_hash.each_value do |value|
   empty_value << value
-  empty_value.to_s
 end
-puts empty_value
+
 i=1
-curr_value = empty_value[0]
+curr_value = empty_value[1]
 while i < empty_value.length
    if empty_value[i] < curr_value
      empty_value[i] = curr_value
