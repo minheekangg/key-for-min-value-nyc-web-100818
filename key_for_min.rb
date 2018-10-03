@@ -15,7 +15,7 @@ puts curr_value
   end
 =end
 empty_value = []
-name_hash.value do |value|
+name_hash.each_value do |value|
   empty_value << value
 end
 puts empty_value
