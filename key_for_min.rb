@@ -31,7 +31,4 @@ while i < empty_value.length
 reverse_hash = name_hash.invert
 reverse_hash.fetch(curr_value)
 
-if reverse_hash == {}
-  return nil
-end
 end
