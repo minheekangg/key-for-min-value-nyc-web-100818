@@ -14,6 +14,10 @@ puts curr_value
     end
   end
 =end
+if name_hash = {}
+  return nil
+end
+
 empty_value = []
 name_hash.each_value do |value|
   empty_value << value
