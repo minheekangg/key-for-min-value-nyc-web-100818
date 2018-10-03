@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
 name.hash each do |key, value|
   value.each do |a, b|
-    if b > a b.delete!
+    b.delete! if b > a 
     end
   end
     return key
