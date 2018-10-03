@@ -14,7 +14,7 @@ puts curr_value
     end
   end
 =end
-if name_hash = {}
+if name_hash == {}
   return nil
 end
 
