@@ -20,7 +20,7 @@ name_hash.each_value do |value|
 end
 
 i=1
-curr_value = empty_value[1]
+curr_value = empty_value[0]
 while i < empty_value.length
    if empty_value[i] < curr_value
      empty_value[i] = curr_value
