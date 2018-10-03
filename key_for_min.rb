@@ -17,6 +17,7 @@ puts curr_value
 empty_value = []
 name_hash.each_value do |value|
   empty_value << value
+  empty_value.to_s
 end
 
 i=1
