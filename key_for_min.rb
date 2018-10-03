@@ -27,7 +27,7 @@ while i < empty_value.length
    end
    i+=1
  end
-end
 
 reverse_hash = name_hash.invert
 reverse_hash.fetch(curr_value)
+end
